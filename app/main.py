@@ -2,7 +2,7 @@ import random
 import matplotlib.pyplot as plt
 
 
-def flip_coins() -> dict[int, float]:
+def flip_coin() -> dict[int, float]:
     """Подбрасывает монету 10 раз, повторяет эксперимент 10000 раз
     и возвращает словарь с процентом выпадений орлов от 0 до 10.
     """
