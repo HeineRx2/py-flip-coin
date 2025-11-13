@@ -24,7 +24,7 @@ def flip_coin() -> dict[int, float]:
 
 def graphic_flip_coin() -> None:
     """Строит график распределения выпадений орлов при 10 бросках."""
-    data = flip_coins()
+    data = flip_coin()
     counts = list(data.keys())
     percentages = list(data.values())
 
